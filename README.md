@@ -9,11 +9,37 @@ If you reside in a jurisdiction where using TOR is illegal, you obviously can't 
 ### Dingledine, Mathewson and Syverson 2004: Tor: The second-generation onion router. In USENIX security symposium (jufo level 2). Chapter:
 3 Design goals and assumptions
 
-### Karunanayake, Ahmed, Malaney, Islam and Jha 2021: De-anonymisation attacks on tor: A survey. In IEEE Communications Surveys & Tutorials (jufo level 2). Chapters:
+* Article explains the baseline for Tor network which is to prevent attackers from seeing linking network communication between two or more parties.
+* Goals are clear. To ensure that goals are reached, Tor design must be inexpensive to built and manage, it must not be something attackers can claim as unlawful by design, it must be usable and simple to adopt and implement in all platforms (Windows, Linuz, Android, MacOS etc.). It also needs to be flexible in a sense that can be used to test and develop in the future. Finally, it has to have simple and easily understadbale design.
+* Article also lists what Tor should not be. It should not be peer-to-peer because that approach poses risk if another peer is controlled by enemy. Tor is also not a solution for all possible issues: it does not conceal who is connected to network, it is not secure against end-to-end attacks
+
+
+### Karunanayake, Ahmed, Malaney, Islam and Jha 2021: De-anonymisation attacks on tor: A survey. In IEEE Communications Surveys & Tutorials (jufo level 2). 
+Chapters:
 Abstract
 I Introduction
 II Background (to the end of "B. Circuit Establishent for Tor HS")
 Fig. 6. Taxonomy for Tor attacks (Just the figure on page 2330.)
+
+* The article about survey results that are used to investigate known risks of Tor such as cyber security attacks and to investigate 
+* 
+
+is Tor being the World's most popular anonymous network. It also recognizes that Tor is used for malicous activities such as drug market, terrorism and other. The art
+lar in today’s online world as more users attempt to safeguard
+their online privacy. Tor is currently the most popular anonymity
+network in use and provides anonymity to both users and services
+(hidden services). However, the anonymity provided by Tor is
+also being misused in various ways. Hosting illegal sites for selling drugs, hosting command and control servers for botnets,
+and distributing censored content are but a few such examples. As a result, various parties, including governments and
+law enforcement agencies, are interested in attacks that assist in
+de-anonymising the Tor network, disrupting its operations, and
+bypassing its censorship circumvention mechanisms. In this survey paper, we review known Tor attacks and identify current
+techniques for the de-anonymisation of Tor users and hidden
+services. We discuss these techniques and analyse the practicality
+of their execution method. We conclude by discussing improvements to the Tor framework that help prevent the surveyed
+de-anonymisation attacks.
+Index Terms—Anonymity networks, Tor attacks, deanonymisation, hidden services, website fingerprinting, privacy,
+network security
 
 ### Halonen, Ollikainen, Rajala 2023: PhishSticks - The Ethical Hackers tool for BadUSB (Video, about 3 minutes)
 
