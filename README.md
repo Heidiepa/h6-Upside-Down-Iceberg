@@ -57,5 +57,10 @@ Use .onion addresses inside TOR network, not regular (clearnet) websites trough 
 
 
 ### c) Onion. In your own words, how does anonymity work in TOR? (e.g. how does it use: public keys, encryption, what algorithms? This subtask does not require tests with a computer.)
+
+
 ### d) What kind of the threat models could TOR fit? (This subtask does not require tests with a computer.)
+
 ### e) Don't stick that stick. How does PhishSticks attack work? Would a typical organization be vulnerable? Does this link to a broader category of attacks and defenses? How could the risk be mitigated? (This subtask does not require tests with a computer.) (If you want, you can view PhishSticks on Github and PhishSticks Youtube channel.
+
+
