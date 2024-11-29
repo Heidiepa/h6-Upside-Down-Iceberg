@@ -34,7 +34,7 @@ To be honest, I was bit hesitant to install Tor browesr and access TOR network d
 
 ### b) Browse TOR network.
 Find, take screenshots and comment
-* search engine for onion site: Is DuckDuckGo which is more secure version of Google Chrome
+* search engine for onion site: Is DuckDuckGo which is more secure version of Google Chrome. DuckDuckGo does not track its users nor does it store any data about user searches.
 ![image](https://github.com/user-attachments/assets/78d7cad1-3922-478b-89cc-9ee31d400f78)
 
 human rights or civil rights organization: DuckduckGo hides the search query
@@ -58,9 +58,19 @@ Use .onion addresses inside TOR network, not regular (clearnet) websites trough 
 
 ### c) Onion. In your own words, how does anonymity work in TOR? (e.g. how does it use: public keys, encryption, what algorithms? This subtask does not require tests with a computer.)
 
+So, you probably known the movie Shrek. Tor and Shrek (the titular character of the movie) have something in common and that is layers. Like onions. When connecting to Tor network, one's PC connects one computer in Tor network which then connects to next computer in the network and then eventually to the server. Because there are so many connections, server does not relaize it is your computer that is connecting to it, it is some other computer. This is why TOR is very anonymous. Ogres are not that anonymous so in that sense TOR is not like Ogre but kinda is.
+
+![image](https://github.com/user-attachments/assets/99927e5a-9a51-48cf-b86a-52f04076d6bf)
+
+To provide highest level of anonymity, Tor network utilizes many cybe security concepts. All Tor connections are done via Transport Layer Security (TLS) protocol that is used to enable secure connections through internet. There is also encruption in each layer of Tor-Onion to ensure best security levels. Tor uses public keys to ensure high quality authentication. They are called onion keys. Onion keys are rotated between layers
+
+
 
 ### d) What kind of the threat models could TOR fit? (This subtask does not require tests with a computer.)
 
 ### e) Don't stick that stick. How does PhishSticks attack work? Would a typical organization be vulnerable? Does this link to a broader category of attacks and defenses? How could the risk be mitigated? (This subtask does not require tests with a computer.) (If you want, you can view PhishSticks on Github and PhishSticks Youtube channel.
 
+## Sources
+Tell me about all the keys Tor uses
+https://support.torproject.org/about/key-management/ 
 
