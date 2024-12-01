@@ -74,7 +74,7 @@ So, you probably known the movie Shrek. Tor and Shrek (the titular character of 
 
 ![image](https://github.com/user-attachments/assets/99927e5a-9a51-48cf-b86a-52f04076d6bf)
 
-To provide highest level of anonymity, Tor network utilizes many cybe security concepts. All Tor connections are done via Transport Layer Security (TLS) protocol that is used to enable secure connections through internet. There is also encruption in each layer of Tor-Onion to ensure best security levels. Tor uses public keys to ensure high quality authentication. They are called onion keys and are rotated between layers
+To provide highest level of anonymity, Tor network utilizes many cybe security concepts. All Tor connections are done via Transport Layer Security (TLS) protocol that is used to enable secure connections through internet. There is also encruption in each layer of Tor-Onion to ensure best security levels. Tor uses public keys to ensure high quality authentication. They are called onion keys and are rotated between layers like onions usually are.
 
 ### d) What kind of the threat models could TOR fit? (This subtask does not require tests with a computer.)
 
@@ -98,4 +98,7 @@ https://support.torproject.org/about/key-management/ '
 
 Nethaniel Ribco. 15 November 2023. An Analysis of the Security Risks Posed by Tor Browser
 https://www.cyberproof.com/blog/an-analysis-of-the-security-risks-posed-by-tor-browser/
+
+NordVPN
+https://nordvpn.com/fi/blog/tor-selain/ 
 
