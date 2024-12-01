@@ -10,34 +10,18 @@
 
 
 ### Karunanayake, Ahmed, Malaney, Islam and Jha 2021: De-anonymisation attacks on tor: A survey. In IEEE Communications Surveys & Tutorials (jufo level 2). 
-Chapters:
-Abstract
-I Introduction
-II Background (to the end of "B. Circuit Establishent for Tor HS")
-Fig. 6. Taxonomy for Tor attacks (Just the figure on page 2330.)
 
-* The article about survey results that are used to investigate known risks of Tor such as cyber security attacks and to investigate 
-* 
-
-is Tor being the World's most popular anonymous network. It also recognizes that Tor is used for malicous activities such as drug market, terrorism and other. The art
-lar in today’s online world as more users attempt to safeguard
-their online privacy. Tor is currently the most popular anonymity
-network in use and provides anonymity to both users and services
-(hidden services). However, the anonymity provided by Tor is
-also being misused in various ways. Hosting illegal sites for selling drugs, hosting command and control servers for botnets,
-and distributing censored content are but a few such examples. As a result, various parties, including governments and
-law enforcement agencies, are interested in attacks that assist in
-de-anonymising the Tor network, disrupting its operations, and
-bypassing its censorship circumvention mechanisms. In this survey paper, we review known Tor attacks and identify current
-techniques for the de-anonymisation of Tor users and hidden
-services. We discuss these techniques and analyse the practicality
-of their execution method. We conclude by discussing improvements to the Tor framework that help prevent the surveyed
-de-anonymisation attacks.
-Index Terms—Anonymity networks, Tor attacks, deanonymisation, hidden services, website fingerprinting, privacy,
-network security
+* The article about survey results that are used to investigate known risks of Tor network, including cyber security attacks and how to de-anonymise Tor users and hidden, possibly malicious services.
+* Initially the article prefaces why internet user may prefer private connections. These are important for whistle-blowers, military, researcsh and business organisations and individuals that may want to preserve anonymity. Tor network is one of most known anonymous networks. While the idea of Tor is great, it is used by evil side of human nature: for cyber crime, terrorism and other criminal activities. The research analyses more than 30 tor de-anonymisation attacks to understand how to improve current practices and how to develop Tor in the future
+*Second chapter describes how Tor network works, different components of Tor such as Onionisation, Directory servers (trusted server used for communication), nodes for entry and exit and how attack affect to those parts. Continuation is about how Tor manages connections within it's network.
+*Figure 6 reprsents the way how Tor network relays data in information circuits. Picture is pretty difficult for layperson.
 
 ### Halonen, Ollikainen, Rajala 2023: PhishSticks - The Ethical Hackers tool for BadUSB (Video, about 3 minutes)
 
+* Phishstick is a simulation of maliciously inteded USB memory device that could install e.g keylogger to person's PC if inserted to USB slot of the PC. PhishStick may be very unsusceptile and can contain malware in addition to "needed" information.
+* Some people are very unassuming and don't suspect anything at workplace.
+* Having employees to freely use any USB memory device on their work PC's can be a security as well as legal risk.
+* Companies can protect their employees against malicous USB devices by disabling the feature through e.g. Windows. I have been part of a project that disabled use of non-approved USB memory devices on company devices and while it initially made users very dissatisfied, it was a smart move.
 
 ## Practical exerises
 ### a) Install TOR browser and access TOR network (.onion addresses). (Explain in detail how you installed it, and how you got access to TOR).
