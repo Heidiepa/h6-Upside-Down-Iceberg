@@ -42,6 +42,9 @@ Find, take screenshots and comment
 * search engine for onion site: Is DuckDuckGo which is more secure version of Google Chrome. DuckDuckGo does not track its users nor does it store any data about user searches.
 ![image](https://github.com/user-attachments/assets/78d7cad1-3922-478b-89cc-9ee31d400f78)
 
+Another one is Haystack
+![image](https://github.com/user-attachments/assets/50d12531-fbe2-42d8-8d9c-c74a58dff874)
+
 human rights or civil rights organization: DuckduckGo hides the search query
 ![image](https://github.com/user-attachments/assets/d4354378-04ef-49e2-9bb7-f085ea9e8f57)
 
@@ -57,8 +60,12 @@ forum: Seacrhed for forum and got prevented from accessing.
 a well known organization (with regular postal addresses, offices or similar presence outside darknet): I searched for Posti.fi and found their address site.
 ![image](https://github.com/user-attachments/assets/0c4b5280-0c27-40a4-a38a-74a0c1bbbb31)
 
-
 Use .onion addresses inside TOR network, not regular (clearnet) websites trough exit nodes.
+![image](https://github.com/user-attachments/assets/9bba32cf-4e87-43af-a608-2bf46d03ddc1)
+
+![image](https://github.com/user-attachments/assets/9d95483e-b908-45a1-a1b5-a9886830bc67)
+
+![image](https://github.com/user-attachments/assets/a6690225-5178-48d6-a8ef-461e0cf04014)
 
 
 ### c) Onion. In your own words, how does anonymity work in TOR? (e.g. how does it use: public keys, encryption, what algorithms? This subtask does not require tests with a computer.)
@@ -67,15 +74,28 @@ So, you probably known the movie Shrek. Tor and Shrek (the titular character of 
 
 ![image](https://github.com/user-attachments/assets/99927e5a-9a51-48cf-b86a-52f04076d6bf)
 
-To provide highest level of anonymity, Tor network utilizes many cybe security concepts. All Tor connections are done via Transport Layer Security (TLS) protocol that is used to enable secure connections through internet. There is also encruption in each layer of Tor-Onion to ensure best security levels. Tor uses public keys to ensure high quality authentication. They are called onion keys. Onion keys are rotated between layers
-
-
+To provide highest level of anonymity, Tor network utilizes many cybe security concepts. All Tor connections are done via Transport Layer Security (TLS) protocol that is used to enable secure connections through internet. There is also encruption in each layer of Tor-Onion to ensure best security levels. Tor uses public keys to ensure high quality authentication. They are called onion keys and are rotated between layers
 
 ### d) What kind of the threat models could TOR fit? (This subtask does not require tests with a computer.)
 
+* Using Tor network does not prevent (like we read in article by Karunanayake, Ahmed, Malaney, Islam and Jha 2021: De-anonymisation attacks on tor: A survey.) all threats.
+* Internal threats come from company employees: employees can use Tor to bypass all security mechanisms, policies, and controls of the organization and cannot be traced. Employee can share company data anonymously through deep web or sell it to criminals.
+* Malware can be injected on exit nodes and that can affect to unencrypted HTTP traffic.
+* Use of Tor network can have effect on reputation. If suspcious exit node is part of organisations IP address, the organisation maybe help resposible for crimes made in their IP - without a reason. Examples of these are hacker activity and illegal trade of information/goods. (Ribco)
+
+
 ### e) Don't stick that stick. How does PhishSticks attack work? Would a typical organization be vulnerable? Does this link to a broader category of attacks and defenses? How could the risk be mitigated? (This subtask does not require tests with a computer.) (If you want, you can view PhishSticks on Github and PhishSticks Youtube channel.
 
+*Phishstick works ao that a malicous software (keylogger or something else) is stored in USB memory device and upon inserting USB memory device onto PC, it initializes malware/keylogger that will then distribute e.g. private content such as personal information or password to attacker. Then attacker can properly access to PC through this information. This can be against GDPR or other regulations related organisational (physical) or cyber security.
+*Typical organisation would be vulnerable of PhishSticks. Many people are naturally curious and if they find USB memory devices, first reaction is to plug it to USB slot. There is also always a possibility that an intruded accesses to e.g. office space, leaves USB memory device onto someones table with e.g. official looking note and that the person whose desk the USB is on may think that USB device is something they need for work task.
+*Thus, typical organisations need to protect themselves with tools like Intune admin templates: https://learn.microsoft.com/en-us/mem/intune/configuration/administrative-templates-restrict-usb that prevent access to USB moemory devics unless the employee is authorized to use USB memory devices for theri work. In addition, user training and active communiaction regarding risks that come with USB Devices should not be forgotten about. 
+
+
 ## Sources
+
 Tell me about all the keys Tor uses
-https://support.torproject.org/about/key-management/ 
+https://support.torproject.org/about/key-management/ '
+
+Nethaniel Ribco. 15 November 2023. An Analysis of the Security Risks Posed by Tor Browser
+https://www.cyberproof.com/blog/an-analysis-of-the-security-risks-posed-by-tor-browser/
 
