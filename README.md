@@ -76,6 +76,11 @@ So, you probably known the movie Shrek. Tor and Shrek (the titular character of 
 
 To provide highest level of anonymity, Tor network utilizes many cybe security concepts. All Tor connections are done via Transport Layer Security (TLS) protocol that is used to enable secure connections through internet. There is also encruption in each layer of Tor-Onion to ensure best security levels. Tor uses public keys to ensure high quality authentication. They are called onion keys and are rotated between layers like onions usually are.
 
+I don't quite understand the Onion algorithms so have a picture of fairy godmother on grand piano:
+
+![image](https://github.com/user-attachments/assets/df0910b7-09b4-4d0c-9470-6622df8d71ed)
+
+
 ### d) What kind of the threat models could TOR fit? (This subtask does not require tests with a computer.)
 
 * Using Tor network does not prevent (like we read in article by Karunanayake, Ahmed, Malaney, Islam and Jha 2021: De-anonymisation attacks on tor: A survey.) all threats.
@@ -88,7 +93,7 @@ To provide highest level of anonymity, Tor network utilizes many cybe security c
 
 *Phishstick works ao that a malicous software (keylogger or something else) is stored in USB memory device and upon inserting USB memory device onto PC, it initializes malware/keylogger that will then distribute e.g. private content such as personal information or password to attacker. Then attacker can properly access to PC through this information. This can be against GDPR or other regulations related organisational (physical) or cyber security.
 *Typical organisation would be vulnerable of PhishSticks. Many people are naturally curious and if they find USB memory devices, first reaction is to plug it to USB slot. There is also always a possibility that an intruded accesses to e.g. office space, leaves USB memory device onto someones table with e.g. official looking note and that the person whose desk the USB is on may think that USB device is something they need for work task.
-*Thus, typical organisations need to protect themselves with tools like Intune admin templates: https://learn.microsoft.com/en-us/mem/intune/configuration/administrative-templates-restrict-usb that prevent access to USB moemory devics unless the employee is authorized to use USB memory devices for theri work. In addition, user training and active communiaction regarding risks that come with USB Devices should not be forgotten about. 
+*Thus, typical organisations need to protect themselves with tools like Intune admin templates: https://learn.microsoft.com/en-us/mem/intune/configuration/administrative-templates-restrict-usb that prevent access to USB memory devics unless the employee is authorized to use USB memory devices for theri work. In addition, user training and active communiaction regarding risks that come with USB Devices should not be forgotten about. 
 
 
 ## Sources
